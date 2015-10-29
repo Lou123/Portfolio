@@ -1,0 +1,137 @@
+h1 { 
+  color: darkblue;
+}
+h1 {
+  font-size: 300%;
+}
+h1 {
+  text-shadow:5px 5px 10px darkblue;
+}
+h1 {
+  border: 5px solid darkblue; margin:auto; border-radius: 25px;
+}
+h1 {
+  background-color: green;
+}
+h1 {
+  width: 400px;
+}
+h1 {
+  text-align: center;
+}
+h1 {
+  letter-spacing: 3px;
+}
+h1 {
+  font-family: "Calibri"; 
+}
+h1 {
+  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
+}
+h2 { 
+  color: greenyellow;
+}
+h2 {
+  font-size: 250%;
+}
+h2 {
+  border: 5px solid darkblue;
+}
+h2 {
+  font-family: 'Calibri';
+}
+h2 {
+  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
+}
+h2 { 
+  background-color: darkgreen;
+}
+h2 {
+  padding-bottom: 5px; padding-right: 10px; padding-left: 10px; padding-top: 5px;
+}
+h3 {
+  font-family: "Calibri";
+}
+h3 {
+  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
+}
+h3 {
+  background-color: blue;
+}
+h3 { 
+  color: white;
+}
+h3 {
+  border: 5px solid darkblue;
+}
+h4 {
+  color: white;
+}
+h4 {
+  background-color: blue;
+}
+h4 {
+  font-family: "Calibri";
+}
+h4 {
+  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
+}
+h4 {
+  border: 5px solid darkblue;
+}
+body {
+  background-color: darkseagreen; 
+}
+/* visited link */
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: white;
+}
+a {
+  text-decoration: underline;
+}
+p::first-letter {
+  color: darkblue; font-size: X-large; font-family: "Gothic";
+}
+p {
+  font-family: "Calibri";
+}
+p {
+  text-indent: 30px;
+}
+img {
+  border: 5px solid darkblue;
+}
+img {
+  width:12%; height:14%;
+}
+img {
+  margin-left: 30px;
+}
+li { 
+  color: blue; font-family: "Calibri";
+}
+blockquote {
+  color: darkblue; border: 5px solid darkblue;
+}
+blockquote {
+  font-family: "Arial"; border-radius: 20px;
+}
+blockquote {
+  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
+}
+blockquote {
+  width: 600px;
+}
+blockquote {
+  margin: auto;
+}
+address {
+  margin-left: 30px;
+}
+nav {
+  margin-left: 30px;
+}
