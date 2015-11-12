@@ -1,90 +1,53 @@
+* { box-sizing: border-box; }
 h1 { 
-  color: darkblue;
-}
-h1 {
-  font-size: 300%;
-}
-h1 {
-  text-shadow:5px 5px 10px darkblue;
-}
-h1 {
-  border: 5px solid darkblue; margin:auto; border-radius: 25px;
-}
-h1 {
-  background-color: green;
-}
-h1 {
-  width: 400px;
-}
-h1 {
-  text-align: center;
-}
-h1 {
-  letter-spacing: 3px;
-}
-h1 {
-  font-family: "Calibri"; 
-}
-h1 {
-  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
+  margin: auto; align-content: center;
+  color: aliceblue; 
+  text-shadow: 5px 5px 10px mediumvioletred; 
+  border: 5px solid darkblue; 
+  background-color: darkgreen; 
+  width: 450px; text-align: center; 
+  letter-spacing: 3px; 
+  font-family: "Calibri", cursive, serif; font-size: 300%;
+  padding-bottom: 15px; padding-top: 15px; padding-right: 10px;
 }
 h2 { 
-  color: greenyellow;
-}
-h2 {
+  width: 450px; text-align: left;
+  color: aliceblue;
   font-size: 250%;
-}
-h2 {
   border: 5px solid darkblue;
-}
-h2 {
-  font-family: 'Calibri';
-}
-h2 {
+  text-shadow: 5px 5px 10px mediumvioletred;
+  font-family: "Calibri", cursive, serif; 
   padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
-}
-h2 { 
+  margin: 20px 0 0 50px;
+  text-align: left;
   background-color: darkgreen;
 }
-h2 {
-  padding-bottom: 5px; padding-right: 10px; padding-left: 10px; padding-top: 5px;
-}
 h3 {
-  font-family: "Calibri";
-}
-h3 {
-  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
-}
-h3 {
-  background-color: blue;
-}
-h3 { 
-  color: white;
-}
-h3 {
+  width: 450px;
+  font-family: 'Calibri', cursive, serif; 
+  padding-bottom: 10px; padding-left: 10px; padding-top: 10px; padding-right: 10px;
+  background-color: darkgreen; text-align: center;
+  text-shadow: 5px 5px 10px mediumvioletred;
+  margin: 20px 20px 0 43px;
+  color: aliceblue;
   border: 5px solid darkblue;
 }
 h4 {
-  color: white;
-}
-h4 {
-  background-color: blue;
-}
-h4 {
-  font-family: "Calibri";
-}
-h4 {
-  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
-}
-h4 {
+  width: 600px; margin: auto;
+  color: aliceblue;
   border: 5px solid darkblue;
+  background-color: darkgreen;
+  text-shadow: 5px 5px 10px mediumvioletred;
+  font-family: 'Calibri', cursive, serif; font-size: 125%;
+  text-align: center;
+  padding: 10px;
 }
 body {
-  background-color: darkseagreen; 
+  background-color: darkolivegreen; 
 }
 /* visited link */
 a:visited {
-  color: green;
+  color: black;
 }
 /* mouse over link */
 a:hover {
@@ -92,46 +55,74 @@ a:hover {
 }
 a {
   text-decoration: underline;
+  padding-bottom: 20px;
+  font-family: "Calibri", cursive, serif; font-weight: bolder;
 }
 p::first-letter {
-  color: darkblue; font-size: X-large; font-family: "Gothic";
+  color: darkblue; font-size: 150%; font-family: 'Covered By Your Grace', cursive, serif;
 }
 p {
-  font-family: "Calibri";
+ font-family: "Calibri", cursive, serif; font-size: 500;
+ margin: 20px 40px 20px 50px;
+ text-align: left;
 }
-p {
-  text-indent: 30px;
+
+.fa {
+  color: mediumvioletred;
 }
+
+ul
+{
+list-style-type: none;
+}
+
 img {
-  border: 5px solid darkblue;
+  border: 10px solid darkblue;
+  width: 325px;
+  margin: 50px 20px 0px 45px;
 }
-img {
-  width:12%; height:14%;
+
+.Lucky_pg2 {
+  width: 250px;
+  float: left;
+  margin: 5px 115px 25px 75px;
+  background-color: aliceblue;
 }
-img {
-  margin-left: 30px;
+
+.Lily_pg2, .ptr_pg2, .duck_pg2, .predator_pg2, .sports_pg2 {
+  width: 280pX;
+  margin: 5px 10px 10px 50px;
+}
+
+.halloween_pg2 {
+  float: left;
+  width: 225px;
+  margin: 10px 68px 50px 40px;
+}
+.float_left {
+  margin: 0 30px 0 60px;
+  width: 350px;
 }
 li { 
-  color: blue; font-family: "Calibri";
+  color: blue; font-family: "Calibri", cursive, serif;
+  margin: 60px 30px 0 10px;
 }
 blockquote {
   color: darkblue; border: 5px solid darkblue;
-}
-blockquote {
-  font-family: "Arial"; border-radius: 20px;
-}
-blockquote {
-  padding-bottom: 5px; padding-left: 10px; padding-top: 5px; padding-right: 10px;
-}
-blockquote {
+  font-family: 'Covered By Your Grace', cursive, serif; border-radius: 20px; font-size: 125%; font-weight: 300;
   width: 600px;
-}
-blockquote {
   margin: auto;
+  padding-bottom: 5px; padding-left: 15px; padding-top: 5px; padding-right: 10px;
+}
+footer{
+  color: darkblue;
+  font-family: "Calibri", cursive, serif;
+  padding-top: 50px; padding-bottom: 50px;
+  margin: 10px;
 }
 address {
-  margin-left: 30px;
+  margin: 50px; font-family: "Calibri", cursive, serif; font-weight: bolder;
 }
 nav {
-  margin-left: 30px;
+  margin: 50px; font-family: "Calibri", cursive, serif;
 }
