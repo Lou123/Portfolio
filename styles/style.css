@@ -55,7 +55,7 @@ a:hover {
 }
 a {
   text-decoration: underline;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: "Calibri", cursive, serif; font-weight: bolder;
 }
 p::first-letter {
@@ -79,16 +79,14 @@ list-style-type: none;
 img {
   border: 10px solid darkblue;
   width: 325px;
-  margin: 50px 20px 0px 45px;
+  margin: 50px 10px 0px 45px;
 }
 
 .Lucky_pg2 {
   width: 250px;
   float: left;
-  margin: 5px 115px 25px 75px;
-  background-color: aliceblue;
+  margin: 5px 115px 25px 45px;
 }
-
 .Lily_pg2, .ptr_pg2, .duck_pg2, .predator_pg2, .sports_pg2 {
   width: 280pX;
   margin: 5px 10px 10px 50px;
@@ -97,10 +95,10 @@ img {
 .halloween_pg2 {
   float: left;
   width: 225px;
-  margin: 10px 68px 50px 40px;
+  margin: 15px 30px 50px 35px;
 }
 .float_left {
-  margin: 0 30px 0 60px;
+  margin: 0 10px 0 40px;
   width: 350px;
 }
 li { 
